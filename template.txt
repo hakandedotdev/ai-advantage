@@ -1,0 +1,205 @@
+HOW TO USE THIS TEMPLATE
+
+1. Only write inside sections marked:
+   >>> WRITE FROM THIS LINE
+2. Delete everything in-between this indicators ">>>" when you start writing.
+3. Keep answers short and simple.
+4. Do NOT edit anything outside write areas.
+
+## Project Description
+
+>>> WRITE FROM THIS LINE
+Explain your idea in plain language.
+No technical words.
+1–3 sentences per answer.
+
+Answer these questions:
+What is this website?
+Who is it for?
+What problem does it solve?
+How should it feel?
+
+Write like this:
+We are building a [type of website] for [specific audience].
+It helps them [main outcome].
+The website should feel [3 emotional adjectives].
+
+Example
+We are building a premium portfolio website for freelance designers.
+It helps them showcase case studies and attract high-quality clients.
+The website should feel refined, confident, and minimal.
+>>> STOP WRITING HERE
+
+## Key Features
+
+>>> WRITE FROM THIS LINE
+List ONLY features required for version 1.
+If removed, the website should stop working.
+Maximum: 5 items.
+
+Think:
+What must exist for this to work?
+What actions must users be able to take?
+
+Example:
+Homepage
+About page
+Services page
+Contact form
+Dashboard (if needed)
+
+Keep it lean. No feature bloat.
+>>> STOP WRITING HERE
+
+## Design Style
+
+>>> REMOVE THIS LINE
+
+Decide how your website should LOOK.
+There are no wrong answers, choose clearly.
+
+>>> END REMOVE
+
+
+COLOR
+
+>>> WRITE FROM THIS LINE
+Pick ONE main brand color first.
+Use HEX codes (#XXXXXX), if you can, using an online color picker.
+
+Fill-in Format and Example:
+
+Primary(brand): #7C9A92 (muted sage)
+Secondary: #DCE3E1
+Background: #F8FAF9
+Accent(for CTAs): #C47F5A
+Mood: Calm, airy, grounded
+>>> STOP WRITING HERE
+
+
+RESPONSIVENESS
+>>> WRITE FROM THIS LINE
+This is where you decide if your website will be used only on desktop or on mobile as well
+
+Example:
+The website must be fully responsive:
+- Desktop optimized
+- Tablet friendly
+- Mobile-first priority
+- Navigation collapses into hamburger on mobile
+>>> STOP WRITING HERE
+
+
+STYLE
+>>> WRITE FROM THIS LINE
+Choose ONE main style only.
+Do not combine opposites.
+
+Examples you can include:
+Minimal and whitespace-driven
+Premium and elegant
+Bold and disruptive
+Corporate and structured
+Playful and expressive
+Dark mode futuristic
+Editorial and typography-focused
+
+Example:
+Style: Minimal, whitespace-driven, premium typography.
+Large headings. Soft shadows. Smooth fade-in animations.
+>>> STOP WRITING HERE
+
+
+WARNING: Do not modify tasks below.
+Lovable will follow these automatically.
+
+Technical
+
+Tech Stack
+Frontend: Vite + TypeScript + React
+UI Library: shadcn/ui
+Styling: Tailwind CSS
+Backend & Database: Lovable Cloud
+Authentication: Email/password (Google OAuth optional)
+Forms: Connected to backend with validation
+Deployment: Production-ready build
+
+Data & Storage
+All form submissions stored in Lovable Cloud
+Admin dashboard access protected
+Secure authentication flow
+Proper error handling
+
+Accessibility
+Proper heading hierarchy (H1 → H4)
+Minimum 4.5:1 color contrast
+Keyboard navigation supported
+ARIA labels where necessary
+
+Performance Requirements
+Fast load time
+Optimized images
+Clean component structure
+No unused components
+SEO-ready metadata
+
+TASK 1 — Foundation Build
+Create the complete website structure using base pages.
+Requirements:
+Follow the defined color system
+Apply global typography styles
+Set up navigation (navbar + footer)
+Build all pages listed in Key Features
+Implement responsive layout system
+Configure authentication if required
+Connect forms to Lovable Cloud
+Maintain consistent spacing using 8pt grid system
+Apply subtle motion (200–300ms ease-in-out)
+Do not focus on perfection yet.
+Focus on structure and functionality.
+
+TASK 2 — Design & UX Refinement
+Retrace every page and improve:
+Visual hierarchy
+Spacing consistency
+Button alignment
+Typography scale
+Mobile layout issues
+Hover states
+Microinteractions
+Error states
+Empty states
+Loading states
+Ensure:
+No visual bugs
+No overlapping elements
+No broken navigation
+Consistent components across all pages
+Polish transitions and refine emotional tone.
+
+
+TASK 3 — Functional & Form Testing
+Test all interactive elements:
+Contact form submission
+Authentication flow
+Form validation errors
+Dashboard loading
+Mobile navigation
+Links and routing
+404 page handling
+Fix:
+Console errors
+Broken states
+Edge-case UI issues
+Accessibility violations
+
+
+TASK 4 — Production Optimization
+Remove unused code
+Optimize images
+Improve load speed
+Add SEO metadata (title, description)
+Add favicon
+Confirm responsiveness across breakpoints
+Ensure deployment-ready build
+Final output must be production-ready.
