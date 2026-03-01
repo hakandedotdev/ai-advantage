@@ -1,0 +1,8 @@
+USE TO EXTRACT EMAIL
+{{ JSON.parse($json.content.parts[0].text).email }}
+
+USE TO EXTRACT SUBJECT
+{{ JSON.parse($json.content.parts[0].text).subject }}
+
+USE TO EXTRACT MESSAGE
+{{ JSON.parse($json.content.parts[0].text).message }}
